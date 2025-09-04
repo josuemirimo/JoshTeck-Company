@@ -1,0 +1,28 @@
+        .page-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 2rem 2rem;
+            text-align: center;
+        }
+
+        .page-header h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .content-section {
+            padding: 4rem 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .content-section h2 {
+            color: #1e293b;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section p {
+            color: #64748b;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }

@@ -1,129 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoshTeck Company - Home</title>
-    <meta name="description" content="JoshTeck Company - Education is the Key to Success. Learn technology and programming with expert instructors.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap Icons -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Title & Description -->
+  <title>JoshTeck Company - Home</title>
+  <meta name="description" content="JoshTeck Company - Empowering youth and communities with digital skills, ICT training, and innovation to build self-reliance and growth. Education is the Key to Success.">
 
-    <!-- Custom Page Styles -->
-    <style>
-        .hero-section {
-            min-height: 70vh;
-            display: flex;
-            align-items: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
+  <!-- SEO Keywords -->
+  <meta name="keywords" content="JoshTeck Company, ICT training, digital skills, web development, coding, youth empowerment, innovation, Uganda, education technology, computer training, Education is the Key to Success">
+  <meta name="author" content="JoshTeck Company">
 
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="rgba(255,255,255,0.1)" points="0,1000 1000,0 1000,1000"/></svg>');
-            background-size: cover;
-        }
+  <!-- Canonical -->
+  <link rel="canonical" href="https://joshteckcompany.online/" />
 
-        .hero-content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-            position: relative;
-            z-index: 1;
-        }
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="JoshTeck Company">
+  <meta property="og:url" content="https://joshteckcompany.online/">
+  <meta property="og:title" content="JoshTeck Company - Home">
+  <meta property="og:description" content="Empowering youth and communities with digital skills, ICT training, and innovation.">
+  <meta property="og:image" content="https://joshteckcompany.online/assets/images/joshteckcompany.png">
 
-        .hero-title {
-            font-size: 3.5rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            animation: fadeInUp 0.8s ease;
-        }
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@joshteckcompany">
+  <meta name="twitter:creator" content="@joshteckcompany">
+  <meta name="twitter:url" content="https://joshteckcompany.online/">
+  <meta name="twitter:title" content="JoshTeck Company - Education is the Key to Success">
+  <meta name="twitter:description" content="Empowering youth and communities with digital skills, ICT training, and innovation.">
+  <meta name="twitter:image" content="https://joshteckcompany.online/assets/images/joshteckcompany.png">
 
-        .hero-subtitle {
-            font-size: 1.3rem;
-            margin-bottom: 2rem;
-            opacity: 0.9;
-            animation: fadeInUp 0.8s ease 0.2s both;
-        }
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/joshteckcompanyround.png" type="image/png">
 
-        .cta-button {
-            display: inline-block;
-            padding: 1rem 2rem;
-            background: rgba(255, 255, 255, 0.2);
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-weight: 600;
-            backdrop-filter: blur(10px);
-            border: 2px solid rgba(255, 255, 255, 0.3);
-            transition: all 0.3s ease;
-            animation: fadeInUp 0.8s ease 0.4s both;
-        }
+  <!-- Styles -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/index.css" />
 
-        .cta-button:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: translateY(-2px);
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .features {
-            padding: 4rem 2rem;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-
-        .feature-card {
-            background: white;
-            padding: 2rem;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .feature-icon {
-            width: 60px;
-            height: 60px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-        }
-    </style>
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "JoshTeck Company",
+    "url": "https://joshteckcompany.online",
+    "logo": "https://joshteckcompany.online/assets/images/joshteckcompany.png",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61559833940191",
+      "https://www.youtube.com/@joshteckcompany",
+      "https://www.instagram.com/joshteckcompany",
+      "https://www.linkedin.com/company/joshteckcompany",
+      "https://x.com/joshteckcompany",
+      "https://www.tiktok.com/@joshteckcompany"
+    ],
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "telephone": "+256787859776",
+      "contactType": "customer service",
+      "areaServed": "UG",
+      "availableLanguage": ["en"]
+    }]
+  }
+  </script>
 </head>
 <body>
     <!-- Navigation and Footer will be injected here by nav-footer.js -->
