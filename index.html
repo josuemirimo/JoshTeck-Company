@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JoshTeck Company - Home</title>
+    <meta name="description" content="JoshTeck Company - Education is the Key to Success. Learn technology and programming with expert instructors.">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Custom Page Styles -->
+    <style>
+        .hero-section {
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="rgba(255,255,255,0.1)" points="0,1000 1000,0 1000,1000"/></svg>');
+            background-size: cover;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .hero-subtitle {
+            font-size: 1.3rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+
+        .cta-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .features {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation and Footer will be injected here by nav-footer.js -->
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to JoshTeck</h1>
+                <p class="hero-subtitle">Empowering minds through innovative education and technology solutions</p>
+                <a href="courses.html" class="cta-button">Explore Courses</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">Why Choose JoshTeck?</h2>
+            <p style="text-align: center; color: #64748b; font-size: 1.1rem; max-width: 600px; margin: 0 auto;">We provide cutting-edge technology education with hands-on experience and industry-relevant skills.</p>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-laptop"></i>
+                    </div>
+                    <h3>Modern Curriculum</h3>
+                    <p>Learn the latest technologies and programming languages that are in high demand in the industry.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <h3>Expert Instructors</h3>
+                    <p>Learn from experienced professionals who bring real-world knowledge to the classroom.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="bi bi-trophy"></i>
+                    </div>
+                    <h3>Certification</h3>
+                    <p>Earn recognized certificates that validate your skills and boost your career prospects.</p>
+                </div>
+            </div>
+        </section>
+
+      <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>
+          JoshTeck Company is dedicated to training individuals in essential tech skills including Basic Computer Skills, Microsoft Windows, Microsoft Office, Graphic Design, and more.
+        </p>
+        <p class="motto"><strong>Motto:</strong> "Education is the key to success"</p>
+        <p class="slogan">Gain useful knowledge to help you grow and empower others too.</p>
+      </section>
+
+
+      <section class="values">
+        <div>
+          <h3>Our Mission</h3>
+          <p>To equip learners with essential digital skills to thrive in today's world.</p>
+        </div>
+        <div>
+          <h3>Our Vision</h3>
+          <p>To become a leading source of accessible and practical tech education in the region.</p>
+        </div>
+        <div>
+          <h3>Our Objectives</h3>
+          <ul>
+            <li>Empower youth with computer literacy</li>
+            <li>Promote self-reliance through digital skills</li>
+            <li>Bridge the digital divide in underserved communities</li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section class="courses" id="courses">
+        <h2>Our Courses</h2>
+
+
+        <input type="text" id="courseSearch" placeholder="Search courses..." />
+
+
+        <div class="course-grid" id="courseGrid">
+
+
+          <div class="course-card" data-title="basic computer skills">
+            <h3>Basic Computer Skills</h3>
+            <p>Learn the fundamentals of operating a computer, managing files, and using common applications.</p>
+            <a href="basic-computer.html" class="btn">Learn More</a>
+          </div>
+
+
+          <div class="course-card" data-title="microsoft windows">
+            <h3>Microsoft Windows</h3>
+            <p>Master the essential features of Windows OS including navigation, settings, and productivity tips.</p>
+            <a href="windows.html" class="btn">Learn More</a>
+          </div>
+
+
+          <div class="course-card" data-title="microsoft office">
+            <h3>Microsoft Office</h3>
+            <p>Explore Word, Excel, PowerPoint and more to create documents, spreadsheets and presentations.</p>
+            <a href="office.html" class="btn">Learn More</a>
+          </div>
+
+
+          <div class="course-card" data-title="graphic design">
+            <h3>Graphic Design</h3>
+            <p>Unleash your creativity with design tools like Canva, Photoshop, and design theory basics.</p>
+            <a href="graphic-design.html" class="btn">Learn More</a>
+          </div>
+
+
+          <div class="course-card" data-title="internet email">
+            <h3>Internet & Email</h3>
+            <p>Get confident with web browsing, safe practices online, and managing professional email accounts.</p>
+            <a href="internet-email.html" class="btn">Learn More</a>
+          </div>
+
+
+          <div class="course-card" data-title="digital productivity">
+            <h3>Digital Productivity</h3>
+            <p>Use Google Workspace and other tools to boost your productivity and collaborate effectively.</p>
+            <a href="productivity.html" class="btn">Learn More</a>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Include the navigation and footer component -->
+    <script src="assets/js/nav-footer.js"></script>
+
+    <script>
+      const searchInput = document.getElementById('courseSearch');
+      const courseCards = document.querySelectorAll('.course-card');
+
+      searchInput.addEventListener('keyup', () => {
+        const term = searchInput.value.toLowerCase();
+
+        courseCards.forEach(card => {
+          const title = card.getAttribute('data-title');
+          card.style.display = title.includes(term) ? 'block' : 'none';
+        });
+      });
+    </script>
+</body>
+</html>

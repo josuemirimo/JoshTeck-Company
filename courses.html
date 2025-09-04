@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - JoshTeck Company</title>
+    <meta name="description" content="Explore our comprehensive technology courses designed to boost your career.">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <style>
+        .page-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4rem 2rem 2rem;
+            text-align: center;
+        }
+
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .course-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .course-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .course-content {
+            padding: 2rem;
+        }
+
+        .course-price {
+            background: #10b981;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Our Courses</h1>
+        <p>Choose from our comprehensive technology programs</p>
+    </section>
+
+    <!-- Courses Grid -->
+    <main>
+        <div class="courses-grid">
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Web Development</h3>
+                </div>
+                <div class="course-content">
+                    <p>Learn HTML, CSS, JavaScript, and modern frameworks to build responsive websites and web applications.</p>
+                    <ul>
+                        <li>Frontend Development</li>
+                        <li>Backend Development</li>
+                        <li>Database Management</li>
+                        <li>Deployment & Hosting</li>
+                    </ul>
+                    <div class="course-price">UGX 800,000</div>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Mobile App Development</h3>
+                </div>
+                <div class="course-content">
+                    <p>Build native and cross-platform mobile applications for iOS and Android using modern technologies.</p>
+                    <ul>
+                        <li>React Native</li>
+                        <li>Flutter</li>
+                        <li>Mobile UI/UX</li>
+                        <li>App Store Deployment</li>
+                    </ul>
+                    <div class="course-price">UGX 900,000</div>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <h3>Data Science</h3>
+                </div>
+                <div class="course-content">
+                    <p>Master data analysis, machine learning, and artificial intelligence to extract insights from data.</p>
+                    <ul>
+                        <li>Python Programming</li>
+                        <li>Machine Learning</li>
+                        <li>Data Visualization</li>
+                        <li>Statistical Analysis</li>
+                    </ul>
+                    <div class="course-price">UGX 1,000,000</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Include the navigation and footer component -->
+    <script src="assets/js/nav-footer.js"></script>
+</body>
+</html>

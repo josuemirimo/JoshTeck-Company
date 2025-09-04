@@ -1,0 +1,163 @@
+/* ======================================
+   START: Global Styles
+====================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+/* ======================================
+   END: Global Styles
+====================================== */
+
+/* ======================================
+   START: Header Styles
+====================================== */
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+/* ======================================
+   END: Header Styles
+====================================== */
+
+
+/* ======================================
+   START: About Section
+====================================== */
+.about {
+  padding: 2rem;
+  background-color: #ffffff;
+  max-width: 900px;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+  color: #0056b3;
+}
+
+.about p.motto,
+.about p.slogan {
+  font-style: italic;
+  margin-top: 1rem;
+}
+/* ======================================
+   END: About Section
+====================================== */
+
+
+/* ======================================
+   START: Values Section
+====================================== */
+.values {
+  background-color: #e6f0ff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 8px;
+}
+
+.values div h3 {
+  color: #003366;
+  margin-bottom: 0.5rem;
+}
+
+.values ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+/* ======================================
+   END: Values Section
+====================================== */
+
+/* ======================================
+   START: Courses Section
+====================================== */
+.courses {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.courses h2 {
+  font-size: 2rem;
+  color: #0056b3;
+  margin-bottom: 2rem;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.course-card {
+  background: #f2f8ff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h3 {
+  color: #004080;
+  margin-bottom: 0.75rem;
+}
+
+.course-card p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.course-card .btn {
+  display: inline-block;
+  background-color: #004080;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.course-card .btn:hover {
+  background-color: #003366;
+}
+/* ======================================
+   END: Courses Section
+====================================== */
+
+/* START: Course Search Styling */
+#courseSearch {
+  width: 60%;
+  padding: 0.7rem 1rem;
+  margin: 1rem auto 2rem auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+/* END: Course Search Styling */
